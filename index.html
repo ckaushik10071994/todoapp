@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <header>
+        <div class="head">
+          <h1>TASKs</h1>
+          <span>List</span>
+        </div>
+        <nav onclick="popUp1()">
+          <button><img src="./logo.svg" /><span>Add Items</span></button>
+        </nav>
+      </header>
+
+
+      <nav class="upperbar">
+        <div>
+            <h5 class="back">Back</h5>
+        </div>
+        <div class="text"></div>
+      </nav>
+
+
+      <section class="sec">
+        <div id="noText">No items in the list</div>
+      </section>
+    </div>
+
+    <div class="addList">
+      <div>
+        <label>Add New List</label>
+      </div>
+      <div>
+        <input type="text" name="addList" id="addpara" />
+      </div>
+      <div>
+        <button class="addButton" onclick="popUp2()">Add</button>
+        <button class="close">Close</button>
+      </div>
+    </div>
+
+    <div class="addItem">
+        <div>
+            <label>Add New Item</label>
+          </div>
+          <div>
+            <input type="text" name="addItem" id="inputText" />
+          </div>
+          <div>
+            <button class="ItemBtn">Add</button>
+            <button class="close2">Close</button>
+          </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
